@@ -1,0 +1,2210 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.main-container {
+  width: 100%;
+  height: auto;
+}
+
+.clix_logo,
+.d4l_logo {
+  margin: 25px 0;
+}
+
+.text_content {
+  margin-top: 15%;
+}
+
+.left_sec {
+  background: #012f82;
+  padding-left: 10%;
+}
+
+.right_sec {
+  padding-right: 10%;
+}
+
+.light_text {
+  color: #eff3ff;
+  opacity: 0.81;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.bold_text {
+  letter-spacing: 0.26px;
+  color: #ffffff;
+  font-size: 26px;
+  line-height: 34px;
+}
+
+.option_text {
+  display: none;
+}
+
+.option_text p {
+  font-size: 16px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.left_sec_main_img {
+  margin-left: 5%;
+  margin-top: 15%;
+}
+
+.left_sec_main_img_mob {
+  display: none;
+}
+
+.p_text_mb0 {
+  margin-bottom: 0px;
+}
+
+.send_otp_icon_1 {
+  width: 35%;
+}
+
+.send_otp_icon_2 {
+  width: 42%;
+}
+
+.send_otp_icon_3 {
+  width: 33%;
+}
+
+.option_text p::before {
+  font-family: "FontAwesome";
+  content: "\f00c";
+  display: inline-block;
+  padding-right: 5px;
+  color: #2fbf71;
+}
+
+.option_text_p_ml {
+  margin-left: 20px;
+}
+
+.submit_btn {
+  width: 100%;
+}
+
+.radio_btn_ml {
+  margin-left: 30px;
+}
+
+.cu_verify_idty .form-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 28px;
+}
+
+.cu_verify_idty .form-group label,
+.list-group-item label {
+  width: 100%;
+  color: #2a3554;
+  font-weight: normal;
+  font-size: 12px;
+  padding-bottom: 7px;
+  margin-bottom: 2px;
+}
+
+label.error {
+  color: #f00 !important;
+  position: absolute;
+  left: 0;
+  top: 77px;
+  line-height: 15px;
+}
+
+.otp-input label.error {
+  color: #f00 !important;
+  position: absolute;
+  left: 0;
+  top: 48px;
+}
+
+.clix-button[disabled] {
+  background: #acb8f1;
+}
+
+.disable_a_href {
+  pointer-events: none;
+  color: #c0c0c0 !important;
+}
+
+.clix-select {
+  width: 100%;
+  height: 45px;
+  color: #2a3554;
+  font-size: 16px;
+  border: 1px solid #b6bddc;
+  border-radius: 2px;
+  padding-left: 10px;
+  -webkit-appearance: none;
+  background: #fff url("../images/caret-select.png") top 20px right 10px no-repeat;
+}
+
+.clix-input {
+  width: 100%;
+  height: 45px;
+  border: 1px solid #b6bddc;
+  border-radius: 2px;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.checkbox-container {
+  margin-top: -25px;
+}
+
+.clix-input:hover,
+.clix-input:active,
+.clix-input:focus,
+select:hover,
+select:active,
+select:focus,
+.clix-button:hover,
+.clix-button:active,
+.clix-button:focus,
+.btn-link:hover,
+.btn-link:active,
+.btn-link:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.pl_vry_your_txt_hdng {
+  text-align: left;
+  font-size: 18px;
+  color: #304258;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-top: 2rem;
+}
+
+.relative-box {
+  position: relative;
+}
+
+.relative-box span {
+  position: absolute;
+  left: 8px;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #2a3554;
+  top: 40px;
+}
+
+.relative-box input {
+  padding-left: 40px;
+}
+
+.a_href {
+  color: #337ab7;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.clix-button {
+  width: 100%;
+  background: #003086;
+  height: 45px;
+  border-radius: 4px;
+  font-size: 16px;
+  border: none;
+  color: #ffffff;
+}
+
+.loan-heading {
+  max-width: 370px;
+  margin: 2rem auto 1rem;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #4a5ba9;
+}
+
+.loan-heading+span {
+  display: block;
+  height: 4px;
+  background: #4a5ba9;
+  margin: -10px auto 0rem;
+  width: 48px;
+  border-radius: 2px;
+}
+
+.radio .outer {
+  width: 16px;
+  height: 16px;
+  display: block;
+  float: left;
+  margin: 4px 4px 5px 0px;
+  border: 2px solid #999;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.radio input:checked+.outer {
+  border: 2px solid #1b4fc3;
+}
+
+.radio .inner {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 8px;
+  height: 8px;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  display: block;
+  margin: 2px auto;
+  border-radius: 50%;
+  background-color: #1b4fc3;
+  opacity: 0;
+}
+
+.radio input:checked+.outer .inner {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+.radio input~strong {
+  font-weight: normal;
+  color: #6f7f9f;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.radio input:checked~strong {
+  color: #2a3554;
+}
+
+.radio input {
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.cu_dispaly_flex {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.radi_mr {
+  margin-right: 50px;
+}
+
+.form_icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  color: #2a3554;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* checkbox css */
+input[type="checkbox"],
+input[type="radio"] {
+  margin: 4px 0 0;
+  margin-top: 1px\9;
+  line-height: normal;
+}
+
+.checkbox-container {
+  padding-bottom: 30px;
+}
+
+.checkbox-container .checkbox {
+  opacity: 0;
+}
+
+.checkbox-container input[name="terms"],
+input[name="terms_send_otp"],
+input[name="terms_personal_details_1st"],
+input[name="terms_personal_details_2nd"],
+input[name="terms_contact_details_1st"],
+input[name="terms_occupational_details_1st"],
+input[name="terms_occupational_details_2nd"],
+input[name="terms_reference_details_1st"],
+input[name="terms_e_agreement_1st"],
+input[name="terms_e_agreement_2nd"],
+input[name="terms_nominee_details_1st"]+label[for="terms"],
+label[for="terms_send_otp"],
+label[for="terms_personal_details_1st"],
+label[for="terms_personal_details_2nd"],
+label[for="terms_contact_details_1st"],
+label[for="terms_occupational_details_1st"],
+label[for="terms_occupational_details_2nd"],
+label[for="terms_reference_details_1st"],
+label[for="terms_e_agreement_1st"],
+label[for="terms_e_agreement_2nd"],
+label[for="terms_nominee_details_1st"] {
+  position: relative;
+  pointer-events: visible !important;
+  top: 0rem !important;
+  left: 0;
+  font-weight: normal;
+  font-size: 12px;
+  color: #304258;
+}
+
+.checkbox-container input:focus+label[for="terms"],
+label[for="terms_send_otp"],
+label[for="terms_personal_details_1st"],
+label[for="terms_personal_details_2nd"],
+label[for="terms_contact_details_1st"],
+label[for="terms_occupational_details_1st"],
+label[for="terms_occupational_details_2nd"],
+label[for="terms_reference_details_1st"],
+label[for="terms_e_agreement_1st"],
+label[for="terms_e_agreement_2nd"],
+label[for="terms_nominee_details_1st"] {
+  position: relative;
+  pointer-events: visible !important;
+  top: -3rem;
+  left: 0;
+}
+
+.checkbox-container .checkbox+label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.checkbox-container .checkbox+label:before {
+  content: "";
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: text-top;
+  width: 15px;
+  height: 15px;
+  border: solid thin #2fbf71;
+  border-radius: 3px;
+}
+
+.checkbox-container .checkbox:checked+label:before {
+  background: #2fbf71;
+}
+
+.checkbox-container .checkbox:checked+label:after {
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: 6px;
+  background: white;
+  width: 2px;
+  height: 2px;
+  box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white,
+    4px -6px 0 white, 4px -8px 0 white;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.comment {
+  text-align: justify;
+}
+
+/* end checkbox css */
+
+/* clixotp page css start */
+.main_container {
+  width: 100%;
+  background: transparent linear-gradient(180deg, #edf3fb 0%, #ffffff 100%) 0% 0% no-repeat padding-box;
+  opacity: 0.73;
+}
+
+.header {
+  width: 100%;
+}
+
+.otp_box {
+  width: 100%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 20px #a4b0e329;
+  border-radius: 6px;
+  margin-top: 50px;
+  padding: 40px;
+  text-align: center;
+}
+
+.top_img {
+  display: inline-block;
+  margin: 20px 0 0 30px;
+}
+
+span#regenerate_otp {
+  margin-left: 65px;
+}
+
+span#timer {
+  margin-right: 10px;
+}
+
+header.top_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.bg-gradient {
+  background: transparent linear-gradient(180deg, #edf3fb 0%, #ffffff 100%) 0% 0% no-repeat padding-box;
+}
+
+.otp_box h4 {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 30px;
+  font-family: "Manrope", sans-serif;
+  color: #304258;
+}
+
+.otp_box p {
+  font-size: 13px;
+  line-height: 21px;
+  font-weight: normal;
+  color: #8492a6;
+}
+
+.otp-box {
+  margin: 3rem 1rem;
+  max-width: 30rem;
+}
+
+.otp-input {
+  width: 100%;
+  text-align: center;
+}
+
+label#gender-error,
+label#marital_status-error {
+  top: 53px;
+}
+
+:root {
+  --ghost-white: #f6f7fb;
+  --pantone: #4d5786;
+}
+
+.corss_icon_parent {
+  margin-top: 26px;
+}
+
+.cu_uploaded_files_box {
+  background: var(--ghost-white) 0% 0% no-repeat padding-box;
+  padding: 2px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cu_cross_icon {
+  color: var(--pantone);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.cu_file_name {
+  font-size: 12px;
+}
+
+.otp-input input {
+  width: 60%;
+  height: 45px;
+  text-align: center;
+  border: 1px solid #dedee8;
+  border-radius: 5px;
+  color: #001738;
+  font-size: 20px;
+}
+
+.current_address_text h3,
+.permanent_address_text h3 {
+  font: normal normal 600 18px/27px Poppins;
+  letter-spacing: 0px;
+  color: #4a5ba9;
+}
+
+.permanent_address_text h3 {
+  margin-top: 20px;
+}
+
+/* .radio_mt_20 {
+  margin-top: 20px;
+} */
+.cu_clix_btn {
+  width: 60%;
+}
+
+#otpErr {
+  color: #f00;
+  font-size: 12px;
+  padding-top: 0.5rem;
+  display: none;
+}
+
+.error-box {
+  border: thin solid #f00 !important;
+}
+
+.otp-input input:hover,
+.otp-input input:focus,
+.otp-input input:active,
+#applied_loan_amount:hover,
+#applied_loan_amount:focus,
+#applied_loan_amount:active {
+  outline: none;
+  box-shadow: none;
+}
+
+/* clixotp page css end here */
+
+/* clix personal info page css start here */
+.para_txt {
+  margin-top: 42px;
+}
+
+.bg_dark_personal_info_sec {
+  background: #00225e;
+  border: 1px solid #707070;
+  height: auto;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.para_txt p {
+  font-style: normal;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.card-header {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card {
+  margin-bottom: 15px;
+}
+
+.personal_info_before_icon::before,
+.contact_info_before_icon::before,
+.occupation_info_before_icon::before {
+  position: relative;
+  left: -15px;
+  top: 18px;
+}
+
+.cu_btn_decoration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.__img {
+  margin-right: 25px;
+}
+
+.__imgviewemiicon {
+  display: flex;
+  align-items: center;
+}
+
+.cu_btn_decoration:hover,
+.cu_btn_decoration:active,
+.cu_btn_decoration:focus {
+  text-decoration: none;
+}
+
+.cu_btn_decoration h5 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  color: #003086;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.list-group-item {
+  border: none;
+}
+
+.pd-top55 {
+  padding-top: 2rem;
+}
+
+.cus_card {
+  background: #ffffff;
+  box-shadow: 0px 7px 35px #00000029;
+}
+
+.cus_gen_mr {
+  margin-right: 23px;
+}
+
+.info_clix_btn {
+  border-radius: 0px;
+}
+
+.send_otp_occu_info {
+  background: #4a5ba9;
+  border-radius: 2px;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.send_otp_occu_info:hover,
+.send_otp_occu_info:focus,
+.send_otp_occu_info:active,
+.send_otp_occu_info:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #4a5ba9;
+  border-color: #4a5ba9;
+}
+
+.form-sub-head {
+  color: #4a5ba9;
+  font-size: 18px;
+  padding-bottom: 2rem;
+  padding-top: 4rem;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.multi_step {
+  margin-top: 65px;
+  margin-bottom: 165%;
+}
+
+.multi_step li {
+  list-style: none;
+  color: #f9f9f9;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 25px;
+  font-style: normal;
+}
+
+.cu_li {
+  position: absolute;
+  left: 10%;
+}
+
+.li_1 {
+  top: 0;
+}
+
+.li_2 {
+  top: 30%;
+}
+
+.li_3 {
+  bottom: 30%;
+}
+
+.li_4 {
+  bottom: 0;
+}
+
+.initial_offer_text h5 {
+  font-size: 20px;
+  font: normal normal medium 20px/30px Poppins;
+  color: #304258;
+}
+
+.congratulations_card {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 7px 35px #00000029;
+  border: 1px solid #556de2;
+  border-radius: 2px;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-top: 10%;
+}
+
+.green_check_icon {
+  margin-bottom: 26px;
+  margin-top: 27px;
+}
+
+.congratulations_txt h5 {
+  margin-bottom: 18px;
+  font: normal normal 600 16px/22px Poppins;
+  color: #304258;
+}
+
+.final_offer_txt h5 {
+  color: #304258;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.final_offer_txt p {
+  font: normal normal normal 14px/32px Poppins;
+  color: #304258;
+}
+
+.price_digit {
+  margin-top: -15px;
+}
+
+.emi_distribution,
+.emi_distribution_1 {
+  background: #fafbfd 0% 0% no-repeat padding-box;
+  padding: 10px 25px;
+}
+
+.price_digit p {
+  margin-bottom: 37px;
+  font: normal normal normal 28px/16px Poppins;
+  color: #4a5ba9;
+}
+
+.checkbox-container {
+  padding-bottom: 1.5rem;
+}
+
+.intial_offer_checkbox {
+  margin-top: 31px;
+  margin-bottom: 15px;
+}
+
+.congratulations_txt p {
+  font: normal normal normal 14px/32px Poppins;
+  color: #304258;
+}
+
+.initial_offer_label {
+  font: normal normal normal 12px/24px Poppins;
+  color: #788691;
+}
+
+.initial_offer_label_siblings {
+  font: normal normal normal 14px/24px Poppins;
+  letter-spacing: 0px;
+  color: #304258;
+}
+
+.initail_offer_cus_accordian {
+  max-width: 500px;
+  height: auto;
+  width: 100%;
+  margin-top: 47px;
+}
+
+.initial_offer_before_icon {
+  font: normal normal 600 18px/30px Poppins;
+  color: #4a5ba9;
+  text-transform: uppercase;
+  margin: 0px 0px 0px 10px;
+}
+
+.insurance_details_text h5 {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: medium;
+  font-style: normal;
+  color: #4a5ba9;
+}
+
+.initial_offer_sub_heading {
+  font: normal normal normal 12px/24px Poppins;
+  color: #304258;
+  margin-top: 50px;
+  background: #f5fff9 0% 0% no-repeat padding-box;
+  padding: 10px 25px !important;
+  max-width: 500px;
+  width: 100%;
+}
+
+.initial_offer_next_btn {
+  max-width: 500px;
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.personal_info_dark_sec_img {
+  position: absolute;
+  bottom: 2%;
+}
+
+.cus_yes_mr {
+  margin-right: 30%;
+}
+
+.health_details_heading h5 {
+  font-size: 20px;
+  color: #304258;
+  line-height: 30px;
+  font-weight: normal;
+  margin-bottom: 18px;
+  margin-top: 50px;
+}
+
+.health_details_heading h6 {
+  margin-bottom: 64px;
+  font: normal normal bold 14px/21px Poppins;
+  color: #2d3766;
+}
+
+.ques p {
+  margin-bottom: 40px;
+  font: normal normal normal 12px/21px Poppins;
+  color: #2d3766;
+}
+
+.initial_offer_hide_class,
+.ques_page_hide_class {
+  display: none;
+}
+
+/* clix personal info page css end here */
+
+/* reference and nominee details page style start here */
+.blood_relation_reference,
+.other_relation_reference {
+  font: normal normal 600 18px/27px Poppins;
+  color: #4a5ba9;
+  margin-bottom: 37px;
+}
+
+.other_relation_reference {
+  margin-top: 35px;
+}
+
+/* reference and nominee details page style end here */
+
+/* congrats page style start here */
+
+.e-greement-head {
+  font-size: 12px;
+  color: #8899ad;
+}
+
+.border_top_tollfree {
+  border-top: 1px dashed #6f7f9f;
+  padding-top: 30px;
+}
+
+.review_box {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 24px #00000029;
+  border-radius: 7px;
+  padding: 40px;
+}
+
+/* congrats page style end here */
+
+/* review page style start here */
+
+.review_img {
+  width: 42%;
+  display: inline-block;
+}
+
+.review_text h6 {
+  font: normal normal normal 20px/34px Poppins;
+  color: #6f7f9f;
+  margin: 0;
+}
+
+.review_text h4 {
+  font: bold 30px/34px Poppins;
+  color: #4a5ba9;
+}
+
+.review_text p {
+  font: normal normal normal 14px/24px Poppins;
+  color: #304258;
+}
+
+span.in_case_text {
+  font: normal normal normal 12px/18px Poppins;
+  color: #6f7f9f;
+  margin-top: 50px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+svg {
+  width: 100%;
+  height: 45vh;
+  position: absolute;
+  z-index: 1;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.13;
+}
+
+/* review page style end here */
+
+.radio-box {
+  width: 46%;
+  float: left;
+  color: #989c99;
+  line-height: 38px;
+  font-weight: normal;
+  cursor: pointer;
+  height: 40px;
+  background: #fafbfd;
+  position: relative;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+input[name="occupation"],
+input[name="materialStatus"],
+input[name="residenceType"],
+input[name="account_type"],
+input[name="PermanentAddress"],
+input[name="NomineeGender"] {
+  width: 100%;
+  color: #6f7f9f;
+  font-weight: normal;
+  position: absolute;
+  cursor: pointer;
+  height: 40px;
+  opacity: 0;
+  margin: 0;
+  z-index: 2;
+}
+
+.width144 {
+  width: 114px;
+}
+
+input[name="occupation"]:checked+div,
+input[name="materialStatus"]:checked+div,
+input[name="residenceType"]:checked+div,
+input[name="account_type"]:checked+div,
+input[name="PermanentAddress"]:checked+div,
+input[name="NomineeGender"]:checked+div {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  color: #2fbf71;
+  line-height: 38px;
+  font-weight: normal;
+  cursor: pointer;
+  height: 40px;
+  background: #f2fbf7;
+  border: 1px solid #2fbf71;
+  border-radius: 3px;
+}
+
+input[name="occupation"]:checked+div i,
+input[name="materialStatus"]:checked+div i,
+input[name="residenceType"]:checked+div i,
+input[name="account_type"]:checked+div i,
+input[name="PermanentAddress"]:checked+div i,
+input[name="NomineeGender"]:checked+div i {
+  padding-left: 0.5rem;
+  padding-right: 0.3rem;
+  margin: 0;
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+input[name="occupation"]+div i,
+input[name="materialStatus"]+div i,
+input[name="residenceType"]+div i,
+input[name="account_type"]+div i,
+input[name="PermanentAddress"]+div i,
+input[name="NomineeGender"]+div i {
+  padding-left: 0.5rem;
+  padding-right: 0.3rem;
+  margin: 0;
+  filter: grayscale(97%);
+  opacity: 0.5;
+}
+
+.radio_btn_border {
+  border: 1px solid;
+}
+
+.success_msg {
+  background: #e4f6ec 0% 0% no-repeat padding-box;
+  border: 1px solid #3aaf70;
+}
+
+.success_msg img {
+  width: 5%;
+}
+
+.success_msg h5 {
+  font: normal normal bold 14px/5px Poppins;
+  letter-spacing: 0.2px;
+  color: #2a3554;
+}
+
+.success_msg p {
+  letter-spacing: 0.2px;
+  color: #2a3554;
+  font-size: 14px;
+}
+
+.mob_header,
+.mob_personal_professional_details,
+.single_clix_logo {
+  display: none;
+}
+
+label#period_of_stay_in_year-error,
+label#period_of_stay_in_month-error,
+label#current_work_exp_in_year-error,
+label#current_work_exp_in_month-error,
+label#total_work_exp_in_year-error,
+label#total_work_exp_in_month-error {
+  top: 46px;
+}
+
+.hero_text {
+  font-size: 18px;
+  color: #2a3554;
+  font-weight: 600;
+}
+
+.white_wrapper ol {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  color: #2a3554;
+}
+
+.white_wrapper h2 {
+  font: normal normal normal 12px/18px Poppins;
+  color: #2a3554;
+}
+
+.white_wrapper p {
+  font: normal normal normal 12px/18px Poppins;
+  color: #2a3554;
+}
+
+.white_wrapper ol li {
+  font: normal normal normal 14px/31px Poppins;
+  letter-spacing: 0.2px;
+  color: #2a3554;
+}
+
+.Verify_your_income {
+  font: normal normal 600 16px/25px Poppins;
+  color: #4a5ba9;
+}
+
+label#bank_statement_method-error {
+  top: 80px;
+}
+
+.upload-bx {
+  padding: 9.5px;
+  border-radius: 3px;
+  border: thin solid #efefef;
+  position: relative;
+  font: normal normal normal 16px/25px Poppins;
+  color: #a2afcd;
+}
+
+.upload-bx input[type="file"] {
+  position: absolute;
+  height: 40px;
+  right: 2px;
+  top: 2px;
+  width: 120px;
+  opacity: 0;
+  z-index: 2;
+}
+
+.upload-bx input[type="file"]+div {
+  position: absolute;
+  padding-left: 1rem;
+  padding-top: 8px;
+  height: 40px;
+  right: 2px;
+  top: 2px;
+  width: 120px;
+  opacity: 1;
+  border-radius: 3px;
+  border: dashed 1px #4a5ba9;
+  color: #4a5ba9;
+  background: #f8f8f9;
+}
+
+.upload-bx input[type="file"]+div i {
+  width: 15px;
+  height: 15px;
+  line-height: 17px;
+  text-align: center;
+  padding: 0;
+  background: #4a5ba9;
+  color: #fff;
+  border-radius: 50px;
+  display: inline-block;
+  font-style: normal;
+}
+
+.upload-bx input[type="file"]+div i+span {
+  font-size: 14px;
+}
+
+.filenames {
+  position: relative;
+}
+
+/* .file-name {
+  margin-top: 25px;
+  margin-bottom: -25px;
+  background: #f6f6f6;
+  padding: 14px 8px;
+  margin-left: 5px;
+  font-size: 12px;
+} */
+button#submit_manual_bank_statement {
+  margin-top: 50px;
+}
+
+.white_wrapper .text-warning {
+  font: normal normal normal 12px/18px Poppins;
+  color: #fb8457 !important;
+}
+
+label#manual_bank_statement-error,
+label#CodeVal-error {
+  top: 42px;
+  font-size: 12px;
+}
+
+.code {
+  position: absolute;
+  width: 120px;
+  right: 2px;
+  top: 2px;
+  height: 40px;
+  padding-left: 15px;
+  text-align: left;
+  border: 1px solid #dedee8;
+  border-radius: 3px;
+}
+
+.radio input~strong {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 21px;
+  color: #2d3766 !important;
+}
+
+.code+span {
+  position: absolute;
+  right: 18px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.cu_Manual_Bank_Statement_Upload h4 {
+  font: normal normal 600 16px/25px Poppins;
+  color: #003086;
+}
+
+.corss_icon {
+  position: absolute;
+  top: 24%;
+  right: 7%;
+  color: #4d5786;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* upload selfie styling start here */
+.white_wrapper_selfie {
+  padding: 20px;
+  background: #f9f9f9 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  max-width: 440px;
+  height: auto;
+  display: inline-block;
+  width: 100%;
+}
+
+.white_wrapper_selfie h2 {
+  padding-bottom: 0;
+  text-align: left;
+  margin-bottom: 0 !important;
+  color: #003086;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 600;
+}
+
+.white_wrapper_selfie h2+p {
+  margin-top: 24px;
+  padding-bottom: 15px;
+  font: normal normal normal 14px/21px Poppins;
+  letter-spacing: 0px;
+  color: #788691;
+}
+
+.cu_cam_white_box {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 1px #0000000f;
+  border-radius: 2px;
+  max-width: 400px;
+  height: auto;
+  width: 100%;
+  padding: 20px 20px 10px 20px;
+}
+
+.camera {
+  position: relative;
+  width: 200px;
+  margin: auto;
+}
+
+#video {
+  border: 2px dashed #4a5ba9;
+  width: 198px;
+  height: 150px;
+  border-radius: 5px;
+  background: #f8f8f9;
+}
+
+.camera_err {
+  border: 2px #f00 dashed !important;
+  border-radius: 5px;
+}
+
+#startbutton {
+  display: block;
+  font-size: 14px;
+}
+
+.camera+div {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  width: 97px;
+  transform: translate(-50%, -50%);
+  color: #4a5ba9;
+}
+
+.camera+div i {
+  width: 15px;
+  height: 15px;
+  line-height: 16px;
+  text-align: center;
+  padding: 0px 1px 0px 0px;
+  background: #4a5ba9;
+  color: #fff;
+  border-radius: 50px;
+  display: inline-block;
+  font-style: normal;
+  cursor: pointer;
+}
+
+#canvas {
+  display: none;
+}
+
+#photo1 {
+  position: absolute;
+  margin-top: -157px;
+  display: none;
+  border: 2px dashed #4a5ba9;
+  width: 200px;
+  height: 150px;
+  border-radius: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.small_cam_text {
+  text-align: center;
+  font-size: 14px;
+  line-height: 21px;
+  color: #6e7aaf;
+}
+
+#myBtn2 {
+  display: none;
+}
+
+.retake {
+  text-align: center;
+  font-size: 14px;
+  line-height: 21px;
+  color: #4aa9a3;
+  padding-top: 1rem;
+  cursor: pointer;
+}
+
+.retake span {
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+  top: 0.2rem;
+}
+
+form#uploadSelfieForm,
+form#panDetails,
+form#bankInstuctions {
+  position: absolute;
+  left: 42%;
+  max-width: 440px;
+  transform: translateX(-50%);
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.bankInstuctions_btn_div {
+  position: relative;
+  left: 44%;
+  top: 355px;
+  max-width: 440px;
+  transform: translateX(-50%);
+  width: 100%;
+  padding: 0px 10px;
+}
+
+/* upload selfie styling end here */
+.cu_verify_idty .form-group label.loan_amount {
+  margin-bottom: 18px;
+}
+
+.slider_wrapper {
+  padding-bottom: 30px;
+}
+
+input[type="range"] {
+  display: block;
+  width: 100%;
+}
+
+.rangeslider,
+.rangeslider__fill {
+  position: relative;
+  background: #e5e5e5;
+  display: block;
+  height: 4px;
+  width: 100%;
+  -webkit-box-shadow: 0 1px 1px rgb(255 255 255 / 25%),
+    inset 0 0 0 rgb(0 0 0 / 30%);
+  -moz-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.25),
+    inset 0 0 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 1px rgb(255 255 255 / 25%), inset 0 0 0 rgb(0 0 0 / 30%);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.rangeslider__fill {
+  background: #0366cb;
+  position: absolute;
+  top: 0;
+}
+
+.rangeslider__handle {
+  background: #0366cb;
+  border: 2px solid #fff;
+  cursor: pointer;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  top: -6.2px;
+  border-radius: 50px;
+}
+
+#applied_loan_amount {
+  width: 180px;
+  display: block;
+  border: none;
+  background: red;
+  margin: -17px auto;
+  background: 0 0;
+  color: #253746;
+  padding: 5px;
+  background: url(/assets/images/rupee-symbol-clix.png) no-repeat 0 50%;
+  overflow: hidden;
+  font-size: 22px;
+  line-height: 21px;
+  font-weight: normal;
+  margin-left: 100px;
+  margin-top: -59px;
+  padding-left: 15px;
+}
+
+.range_limit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.min_limit,
+.max_limit {
+  color: #868eae;
+  font-size: 12px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+/* upload pancard css start here */
+.format_box {
+  background: #e5e9f2;
+  width: 80%;
+  margin: 25px auto;
+  padding: 0.5rem;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 12px;
+  color: #304258 !important;
+}
+
+.pan-upload-bx {
+  padding: 0 2rem 2rem 2rem;
+}
+
+.small_text_upload {
+  display: block;
+  font-size: 11px;
+  color: #8899ad;
+}
+
+.pan-upload-bx input[type="file"] {
+  position: absolute;
+  height: 50px;
+  right: 0;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  z-index: 2;
+}
+
+.pan-upload-bx input[type="file"]+div {
+  position: absolute;
+  padding-left: 1rem;
+  padding-top: 12px;
+  height: 50px;
+  right: 0;
+  width: 100%;
+  opacity: 1;
+  border-radius: 3px;
+  border: dashed 1px #4a5ba9;
+  color: #4a5ba9;
+  background: #f8f8f9;
+}
+
+.pan-upload-bx input[type="file"]+div i {
+  width: 15px;
+  height: 15px;
+  line-height: 16px;
+  text-align: center;
+  padding: 0;
+  background: #4a5ba9;
+  color: #fff;
+  border-radius: 50px;
+  display: inline-block;
+  font-style: normal;
+}
+
+.pan-upload-bx input[type="file"]+div i+span {
+  font-size: 13px;
+  line-height: 18px;
+  color: #2a3554;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.filenames {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  background: #f6f6f6;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  display: none;
+}
+
+.clix-form-1 .form-group label {
+  width: 100%;
+  color: #2a3554;
+  font-weight: normal;
+  font-size: 12px;
+  padding-bottom: 7px;
+}
+
+label#pancard_proof-error {
+  font-size: 12px;
+  top: 52px;
+}
+
+.file-name {
+  font-size: 12px;
+  color: #27b327;
+  padding-top: 0rem;
+}
+
+.enter_pen_txt {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  color: #2a3554;
+}
+
+::placeholder {
+  color: #a2afcd;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: normal;
+}
+
+label#pan_no-error {
+  top: 45px;
+  font-size: 12px;
+}
+
+.pd_top2 {
+  padding-top: 30px;
+}
+
+/* upload pancard css end here */
+
+/* bank insturctions style start here */
+
+.cu_cam_white_box_bank_insturctions {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 14px #b6bddc;
+  border: 1px dashed #b6bddc;
+  border-radius: 4px;
+}
+
+span.setup_lb {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.bank_instru h2 {
+  letter-spacing: 0px;
+  color: #003086;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.cu_cam_white_box_bank_insturctions p {
+  margin: 0;
+  font: normal normal normal 16px/25px Poppins;
+  color: #2a3554;
+}
+
+.cu_cam_white_box_bank_insturctions h6 {
+  margin: 0.3rem;
+  font: normal normal bold 16px/25px Poppins;
+  color: #2a3554;
+}
+
+.verified_bank_txt {
+  font: normal normal normal 12px/18px Poppins;
+  color: #6f7f9f;
+}
+
+div#headingOne,
+div#headingTwo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sucess {
+  color: #4d5786;
+}
+
+/* bank insturctions style end here */
+.list-group-item .form-group label:first-child,
+.cu_verify_idty .form-group label:first-child {
+  font-size: 13px;
+}
+
+/* circle code start here */
+.circle-wrap {
+  margin: 0px;
+  width: 150px;
+  height: 150px;
+  background: #fefcff;
+  border-radius: 50%;
+  border: 1px solid #cdcbd0;
+  display: inline-block;
+}
+
+.circle-wrap .circle .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill,
+.fill2 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.mask.full,
+.circle .fill {
+  animation: fill ease-in-out 3s;
+  transform: rotate(45deg);
+}
+
+.fill2 {
+  animation: fill ease-in-out 3s;
+  transform: rotate(135deg);
+}
+
+.circle-wrap .inside-circle {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: #fff;
+  line-height: 137px;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 5px;
+  color: #4a5ba9;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.mask .fill,
+.fill2 {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: #2fbf71;
+}
+
+.circle_parent {
+  position: absolute;
+  transform: scale(0.4);
+  right: -15px;
+  top: -10px;
+}
+
+/* circle code end here */
+#loader_div {
+  background: url("../images/clix_loading.gif") no-repeat center center;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9999999;
+}
+
+.send_otp_btn_pl0,
+.verify_btn_pl0 {
+  padding-left: 0;
+}
+
+.btn-success:disabled {
+  color: #fff;
+  background-color: #4a5ba9;
+  border-color: #4a5ba9;
+}
+
+.pull-left,
+.pull-right {
+  font-size: 12px;
+}
+
+span#timer {
+  margin-right: 0px;
+}
+
+.pd-top-30 {
+  padding-top: 3rem;
+}
+
+.go-home {
+  color: #4a5ba9;
+  border: solid #4a5ba9 thin;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  max-width: 200px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.go-home:hover {
+  color: #fff;
+  background: #4a5ba9;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+.error_occ_txt {
+  color: red !important;
+  margin-top: 20px;
+}
+
+.clix-mob-clix-logo {
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cu_li {
+    left: 14%;
+  }
+
+  .multi_step li,
+  .para_txt p {
+    font-size: 12px;
+  }
+
+  .upload-bx,
+  .clix-input,
+  .clix-select {
+    font-size: 12px;
+  }
+
+  .upload-bx input[type="file"]+div i+span {
+    font-size: 12px;
+  }
+
+  .option_text p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .multi_step li {
+    font-size: 12px;
+  }
+
+  .cu_li {
+    left: 15%;
+  }
+
+  .light_text {
+    font-size: 12px;
+  }
+
+  .bold_text {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+@media only screen and (max-width: 856px) {
+  .multi_step li {
+    font-size: 10px;
+  }
+
+  .cu_li {
+    left: 18%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .initial_offer_text h5 {
+    font-size: 16px;
+  }
+
+  .mob_header,
+  .mob_personal_professional_details,
+  .single_clix_logo,
+  .left_sec_main_img_mob {
+    display: block;
+  }
+
+  .send_otp_icon_1 {
+    width: 10%;
+  }
+
+  .send_otp_icon_2 {
+    width: 13%;
+  }
+
+  .send_otp_icon_3 {
+    width: 12%;
+  }
+
+  .left_sec {
+    overflow: hidden;
+  }
+
+  .header_logo,
+  .bg_dark_personal_info_sec,
+  .d4l_logo,
+  .left_sec_main_img {
+    display: none;
+  }
+
+  .clix_logo,
+  .d4l_logo {
+    margin: 15px -10px;
+  }
+
+  .clix_logo img {
+    width: 65%;
+  }
+
+  .left_sec_main_img_mob {
+    display: block;
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    width: 50%;
+  }
+
+  #formHome {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px #a4b0e329;
+    border-radius: 6px;
+    margin-top: -60px;
+  }
+
+  .right_sec {
+    padding-right: 5%;
+  }
+
+  .left_sec {
+    padding-left: 20px;
+    padding-bottom: 20%;
+  }
+
+  .option_text {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .option_text_p_ml {
+    margin-left: 0px;
+  }
+
+  .bold_text {
+    font-size: 20px;
+  }
+
+  .option_text p {
+    margin-top: 10px;
+  }
+
+  header.top_header {
+    display: none;
+  }
+
+  .card-body {
+    padding: 0;
+  }
+
+  svg {
+    height: 80vh;
+  }
+
+  .cu_btn_decoration h5 {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .__img {
+    margin-right: 10px;
+  }
+
+  .radio .outer {
+    margin: 2px 4px 5px 0px;
+  }
+
+  .clix-select {
+    font-size: 16px;
+    padding-left: 10px;
+  }
+
+  .clix-input {
+    padding-left: 10px;
+    font-size: 16px;
+  }
+
+  .card-header {
+    padding: 5px 0px;
+  }
+
+  .cu_form_box {
+    margin-top: -50px;
+  }
+
+  .option_text p,
+  .light_text,
+  .radio input~strong {
+    font-size: 14px;
+  }
+
+  .p_text_mb0_mobile {
+    margin-bottom: 25px;
+  }
+
+  .text_content {
+    margin-top: 8%;
+  }
+
+  .otp-input input {
+    height: 45px;
+  }
+
+  .otp_box p {
+    line-height: 27px;
+  }
+
+  .mob_personal_professional_details {
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    margin-bottom: 15px;
+  }
+
+  .single_clix_logo {
+    width: 20%;
+    margin: 15px 0;
+  }
+
+  .__imgviewemiicon img {
+    margin-left: 15px;
+  }
+
+  .initial_offer_before_icon {
+    font-size: 14px;
+  }
+
+  .initial_offer_parent {
+    margin: 0 15%;
+  }
+
+  .white_wrapper h2 {
+    margin-top: 10px;
+  }
+
+  .corss_icon_parent {
+    margin-top: 0px;
+  }
+
+  form#uploadSelfieForm,
+  form#panDetails,
+  form#bankInstuctions {
+    left: 50%;
+  }
+
+  .review_text h4 {
+    font-size: 20px;
+  }
+
+  #formHome {
+    margin-top: -5px;
+  }
+
+  .clix_logo {
+    width: 45%;
+  }
+
+  .clix-mob-clix-logo {
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    top: -2%;
+    left: 0%;
+  }
+
+  .review_img {
+    width: 70%;
+  }
+
+  svg {
+    height: 45vh;
+  }
+
+  .bankInstuctions_btn_div {
+    left: 52.5%;
+  }
+}
+
+@media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+  .cu_form_box {
+    margin-top: 0px;
+  }
+
+  .left_sec_main_img_mob {
+    top: 35%;
+    right: 15%;
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  span#regenerate_otp {
+    margin-left: 0px;
+  }
+
+  span#timer {
+    margin-right: 0px;
+  }
+
+  .cu_btn_decoration h5,
+  .initial_offer_before_icon {
+    font-size: 12px;
+  }
+
+  .congratulations_txt h5 {
+    font-size: 14px;
+  }
+
+  .initial_offer_parent {
+    margin: 0;
+  }
+
+  .success_msg h5 {
+    line-height: 20px;
+  }
+
+  .upload-bx input[type="file"]+div {
+    width: 100px;
+  }
+
+  .upload-bx input[type="file"] {
+    width: 100px;
+  }
+
+  .upload-bx input[type="file"]+div i+span {
+    font-size: 10px;
+  }
+
+  .upload-bx,
+  .clix-input,
+  .clix-select {
+    font-size: 12px;
+  }
+
+  .code {
+    width: 90px;
+  }
+
+  .option_text p {
+    font-size: 12px;
+    line-height: 5px;
+  }
+
+  .left_sec_main_img_mob {
+    top: 20%;
+    right: 2%;
+    width: 45%;
+  }
+
+  #formHome {
+    margin-top: -55px;
+  }
+
+  .p_text_mb0_mobile {
+    margin-bottom: 15px;
+  }
+
+  .bold_text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .light_text {
+    font-size: 12px;
+  }
+
+  .clix_logo {
+    width: 100%;
+  }
+
+  .otp_box h4 {
+    font-size: 16px;
+  }
+
+  .otp_box p,
+  span#regenerate_otp,
+  span#timer {
+    font-size: 12px;
+  }
+
+  #applied_loan_amount {
+    font-size: 16px;
+    line-height: 10px;
+    margin-top: -55px;
+  }
+
+  .bankInstuctions_btn_div {
+    left: 54%;
+    top: 375px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .bold_text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .pl_vry_your_txt_hdng {
+    font-size: 16px;
+  }
+
+  #video {
+    width: 180px;
+    height: 130px;
+  }
+
+  .send_otp_icon_1 {
+    width: 25%;
+  }
+
+  .send_otp_icon_2 {
+    width: 28%;
+  }
+
+  .send_otp_icon_3 {
+    width: 27%;
+  }
+
+  .bankInstuctions_btn_div {
+    left: 55%;
+    top: 430px;
+  }
+}

@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Info</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css" />
+  <link rel="stylesheet" href="assets/css/clix-styles.css" />
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div id="loader_div" style="display: none; "></div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-4 bg_dark_personal_info_sec">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 mx-auto">
+              <div class="clix_logo">
+                <img class="img-fluid" src="./assets/images/Logo.png" alt="" />
+              </div>
+              <div class="para_txt">
+                <p>You are at the right place to get quick<br>and hassle-free personal loans with<br>a
+                  few steps</p>
+              </div>
+              <div class="multi_step position-relative">
+                <img class="img-fluid" src="./assets/images/Stepper.svg" alt="">
+                <ul>
+                  <li class="li_1 cu_li">Personal & Professional Details</li>
+                  <li class="li_2 cu_li">Reference Details</li>
+                  <li class="li_3 cu_li">Bank Details</li>
+                  <li class="li_4 cu_li">Upload Documents</li>
+                </ul>
+              </div>
+              <div class="personal_info_dark_sec_img">
+                <img class="img-fluid" src="./assets/images/Updated_Image_2.png" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-8 bg_light_personal_info_sec">
+        <div class="single_clix_logo">
+          <img class="img-fluid" src="./assets/images/Logo.png" alt="">
+        </div>
+        <div class="mob_personal_professional_details">
+          <div class="mob_personal_professional">
+            <p>Personal & <br> Professional Details</p>
+          </div>
+          <div class="circle_parent">
+            <div class="circle-wrap">
+              <div class="circle">
+                <div class="mask full">
+                  <div class="fill"></div>
+                </div>
+                <div class="mask half">
+                  <div class="fill"></div>
+                </div>
+                <div class="inside-circle">1 of 4</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-10 ml-lg-5 ml-md-0 ml-0">
+            <div class="d4l_logo text-right">
+              <img class="img-fluid" src="./assets/images/D4L-logo.png" alt="" />
+            </div>
+            <div id="accordion" class="cu_accordion">
+              <div class="card cus_card">
+                <div class="card-header" id="headingOne">
+                  <button class="btn btn-link cu_btn_decoration" id="disabled_accordian_1" data-toggle="collapse"
+                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <div class="__img">
+                      <img class="img-fluid personal_blue_img_show" src="./assets/images/personalinfo_icon.svg" alt="">
+                      <img class="img-fluid personal_green_img_show" style="display: none;"
+                        src="./assets/images/personal_green_icon.png" alt="">
+                    </div>
+                    <h5 class="personal_info_before_icon">Personal Information</h5>
+                  </button>
+                  <div class="acc_gn_check_img" style="display: none;">
+                    <img class="img-fluid" src="./assets/images/green_check.png" alt="">
+                  </div>
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    <form id="personalDetails">
+                      <div class="list-group">
+
+                        <div class="list-group-item py-3" data-acc-step>
+                          <div data-acc-content>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Gender </label>
+                                  <div class="cus_flex_div d-flex align-items-center">
+                                    <div class="radio-btn radio-btn-m radio-btn-m-f cus_gen_mr">
+                                      <label class="radio">
+                                        <input type="radio" name="gender" value="Male">
+                                        <span class="outer"><span
+                                            class="inner"></span></span><strong>Male</strong></label>
+                                    </div>
+                                    <div class="radio-btn radio-btn-m radio-btn-m-f">
+                                      <label class="radio">
+                                        <input type="radio" name="gender" value="Female">
+                                        <span class="outer"><span
+                                            class="inner"></span></span><strong>Female</strong></label>
+                                    </div>
+                                  </div>
+                                  <div class="clearfix"></div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Marital Status </label>
+                                  <div class="cus_flex_div d-flex">
+                                    <div class="radio-btn radio-btn-m radio-btn-m-f cus_gen_mr">
+                                      <label class="radio">
+                                        <input type="radio" name="marital_status" value="S">
+                                        <span class="outer"><span
+                                            class="inner"></span></span><strong>Single</strong></label>
+                                    </div>
+                                    <div class="radio-btn radio-btn-m radio-btn-m-f">
+                                      <label class="radio">
+                                        <input type="radio" name="marital_status" value="M">
+                                        <span class="outer"><span
+                                            class="inner"></span></span><strong>Married</strong></label>
+                                    </div>
+                                  </div>
+                                  <div class="clearfix"></div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="dob">DOB </label>
+                                  <input type="text" name="dob" placeholder="DD/MM/YYYY" id="datepicker"
+                                    class="clix-input valid" aria-invalid="false" required>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="pan">Pan Number </label>
+                                  <input type="text" name="pan" id="pan" maxlength="10" class="clix-input valid"
+                                    aria-invalid="false" placeholder="ABCDE1234F" required>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="email">Personal Email ID </label>
+                                  <input type="email" name="email" id="email" class="clix-input valid"
+                                    aria-invalid="true" placeholder="Enter Personal Mail ID" required>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="qualification">Education
+                                    Qualification </label>
+                                  <select name="qualification" id="qualification" class="clix-select">
+                                    <option value="">Please Select</option>
+                                    <option value="Below Matric">Below Matric
+                                    </option>
+                                    <option value="Diploma">Diploma</option>
+                                    <option value="Graduation">Graduation
+                                    </option>
+                                    <option value="Intermediate">Intermediate
+                                    </option>
+                                    <option value="Matric">Matric</option>
+                                    <option value="Ph.D">Ph.D</option>
+                                    <option value="Post Graduation">Post
+                                      Graduation</option>
+                                    <option value="Others">Others</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="mother_name">Mother's Name </label>
+                                  <input type="text" name="mother_name" id="mother_name" class="clix-input"
+                                    maxlength="50" placeholder="Enter Mother Name">
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="father_sp_name">Father's Name </label>
+                                  <input type="text" name="father_sp_name" id="father_sp_name" class="clix-input"
+                                    maxlength="50" placeholder="Enter Father Name" required="">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="loan_purpose">Purpose of loan
+                                  </label>
+                                  <select name="loan_purpose" id="loan_purpose" class="clix-select">
+                                    <option value="">Please Select</option>
+                                    <option value="Consumer Durable">Consumer
+                                      Durable</option>
+                                    <option value="Education">Education</option>
+                                    <option value="Home Renovation">Home
+                                      Renovation</option>
+                                    <option value="Marriage">Marriage</option>
+                                    <option value="Travel">Travel</option>
+                                    <option value="Others">Others</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+
+                              </div>
+                            </div>
+                            <div class="row pd-top55">
+                              <div class="col-md-6 mx-auto">
+                                <button type="submit" name="submit_personal_details"
+                                  class="clix-button info_clix_btn enable_btn_click_1" id="rmv_id_btn_1">NEXT</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="card cus_card">
+                <div class="card-header gray-scale-accord-img" id="headingTwo">
+                  <button class="btn btn-link collapsed cu_btn_decoration" id="disabled_accordian_2"
+                    data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <div class="__img">
+                      <img class="img-fluid contact_blue_img_show" style="display: none;"
+                        src="./assets/images/contactinfo_icon.svg" alt="">
+                      <img class="img-fluid contact_green_img_show" style="display: none;"
+                        src="./assets/images/contact_green_icon.png" alt="">
+                      <img class="img-fluid contact_gray_img_show" src="./assets/images/grey-contact-ic.png" alt="">
+                    </div>
+                    <h5 class="contact_info_before_icon _info_before_icon_rm">Contact Information</h5>
+                  </button>
+                  <div class="acc_contact_gn_check_img" style="display: none;">
+                    <img class="img-fluid" src="./assets/images/green_check.png" alt="">
+                  </div>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class="card-body">
+                    <form id="currentInformation" novalidate="novalidate">
+                      <div class="list-group">
+                        <div class="list-group-item py-3 current_address_sec" data-acc-step="">
+                          <div data-acc-content="">
+                            <div class="row">
+                              <div class="col-sm-12">
+                                <div class="current_address_text">
+                                  <h3>Current Address</h3>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="current_add_1">Address Line 1
+                                  </label>
+                                  <input type="text" name="current_add_1" id="current_add_1" class="clix-input"
+                                    maxlength="50" pattern="[a-zA-z0-9 .,/-]{3,50}" placeholder="Enter Address Line 1">
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="current_add_2">Address Line 2
+                                  </label>
+                                  <input type="text" name="current_add_2" id="current_add_2" class="clix-input"
+                                    maxlength="50" pattern="[a-zA-z0-9 .,/-]{3,50}" placeholder="Enter Address Line 2">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="current_add_3">Address Line 3 (Optional)</label>
+                                  <input type="text" name="current_add_3" id="current_add_3" class="clix-input"
+                                    maxlength="50" pattern="[a-zA-z0-9 .,/-]{3,50}" placeholder="Enter Address Line 3">
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="current_landmark">Landmark </label>
+                                  <input type="text" name="current_landmark" id="current_landmark" class="clix-input"
+                                    maxlength="50" placeholder="Enter Landmark" required="">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="current_pincode">Pincode </label>
+                                  <input type="text" name="current_pincode" id="current_pincode" class="clix-input"
+                                    maxlength="6" pattern="[0-9]{6}" placeholder="Enter Pincode"
+                                    autocomplete="current_pincode">
+                                </div>
+                              </div>
+                              <!-- <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="current_state">State </label>
+                                  <select name="current_state" id="current_state" class="clix-select">
+                                    <option value="">Select State</option>
+                                  </select>
+                                </div>
+                              </div> -->
+                            </div>
+                            <!-- <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="current_locality">Locality </label>
+                                  <select name="current_locality" id="current_locality" class="clix-select">
+                                    <option value="">Select Locality</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="current_city">City </label>
+                                  <select name="current_city" id="current_city" class="clix-select">
+                                    <option value="">Select City</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div> -->
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="current_res_type">Residence Type
+                                  </label>
+                                  <select name="current_res_type" id="current_res_type" class="clix-select" required="">
+                                    <option value="">Select Residence Type
+                                    </option>
+                                    <option value="Living with Parents">Living
+                                      with Parents</option>
+                                    <option value="Owned">Owned</option>
+                                    <option value="Parental">Parental</option>
+                                    <option value="Paying Guest or Hostel">
+                                      Paying Guest or Hostel</option>
+                                    <option value="PG/Sharing">PG/Sharing
+                                    </option>
+                                    <option value="Rented">Rented</option>
+                                    <option value="Rented with Family">Rented
+                                      with Family</option>
+                                    <option value="Rented with Friends">Rented
+                                      with Friends</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="row">
+                                  <div class="col-md-12">
+                                    <label for="period_of_stay_year">Period of Stay</label>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <select name="period_of_stay_in_year" id="period_of_stay_in_year"
+                                        class="clix-select" required="">
+                                        <option value="">Year</option>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <select name="period_of_stay_in_month" id="period_of_stay_in_month"
+                                        class="clix-select" required="">
+                                        <option value="">Month</option>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25">25</option>
+                                        <option value="26">26</option>
+                                        <option value="27">27</option>
+                                        <option value="28">28</option>
+                                        <option value="29">29</option>
+                                        <option value="30+">30+</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group radio_mt_20">
+                                  <label>Current Address is same as permanent
+                                    address?</label>
+                                  <div class="cus_flex_div d-flex align-items-center">
+                                    <div class="radio-btn radio-btn-m cus_gen_mr">
+                                      <label class="radio">
+                                        <input type="radio" name="permanentAddress" value="1">
+                                        <span class="outer cu_radio_click_yes"><span
+                                            class="inner"></span></span><strong>Yes</strong></label>
+                                    </div>
+                                    <div class="radio-btn radio-btn-m">
+                                      <label class="radio">
+                                        <input type="radio" name="permanentAddress" value="0" checked="">
+                                        <span class="outer cu_radio_click_no"><span
+                                            class="inner"></span></span><strong>No</strong></label>
+                                    </div>
+                                  </div>
+                                  <div class="clearfix"></div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+
+                              </div>
+                            </div>
+                            <div class="permanent_address_sec">
+                              <div data-acc-content="">
+                                <div class="row">
+                                  <div class="col-sm-12">
+                                    <div class="permanent_address_text">
+                                      <h3>Permanent Address</h3>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <label for="permanent_add_1">Address Line 1 </label>
+                                      <input type="text" name="permanent_add_1" id="permanent_add_1" class="clix-input"
+                                        maxlength="50" pattern="[a-zA-z0-9 .,/-]{3,50}"
+                                        placeholder="Enter Address Line 1" required="">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <label for="permanent_add_2">Address Line 2 </label>
+                                      <input type="text" name="permanent_add_2" id="permanent_add_2" class="clix-input"
+                                        maxlength="50" pattern="[a-zA-z0-9 .,/-]{3,50}"
+                                        placeholder="Enter Address Line 2" required="">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <label for="permanent_add_3">Address Line 3 (Optional)</label>
+                                      <input type="text" name="permanent_add_3" id="permanent_add_3" class="clix-input"
+                                        maxlength="50" pattern="[a-zA-z0-9 .,/-]{3,50}"
+                                        placeholder="Enter Address Line 3">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <label for="permanent_landmark">Landmark </label>
+                                      <input type="text" name="permanent_landmark" id="permanent_landmark"
+                                        class="clix-input" placeholder="Enter Landmark" required="">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <label for="permanent_pincode">Pincode </label>
+                                      <input type="text" name="permanent_pincode" id="permanent_pincode"
+                                        class="clix-input" maxlength="6" pattern="[0-9]{6}" placeholder="Enter Pincode"
+                                        autocomplete="permanent_pincode" required="">
+                                    </div>
+                                  </div>
+                                  <!-- <div class="col-md-6">
+                                    <div class="form-group">
+                                      <label for="permanent_state">State </label>
+                                      <select name="permanent_state" id="permanent_state" class="clix-select"
+                                        required="">
+
+                                        <option value="">Select State</option>
+                                      </select>
+                                    </div>
+                                  </div> -->
+                                </div>
+                                <!-- <div class="row">
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <label for="permanent_city">City </label>
+                                      <select name="permanent_city" id="permanent_city" class="clix-select" required="">
+
+                                        <option value="">Select City</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <label for="permanent_locality">Locality </label>
+                                      <select name="permanent_locality" id="permanent_locality" class="clix-select"
+                                        required="">
+
+                                        <option value="">Select Locality</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                </div> -->
+                                <div class="row">
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <label for="permanent_res_type">Residence Type </label>
+                                      <select name="permanent_res_type" id="permanent_res_type" class="clix-select"
+                                        required="">
+                                        <option value="">Select Residence Type</option>
+                                        <option value="Owned">Owned</option>
+                                        <option value="Rented">Rented</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+
+                                  </div>
+                                </div>
+
+                              </div>
+                            </div>
+                            <div class="row pd-top55">
+                              <div class="col-md-6 mx-auto">
+                                <button type="submit" name="submit_contact_details"
+                                  class="clix-button info_clix_btn enable_btn_click_2">NEXT</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="card cus_card">
+                <div class="card-header gray-scale-accord-img" id="headingThree">
+                  <button class="btn btn-link collapsed cu_btn_decoration" id="disabled_accordian_3"
+                    data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                    aria-controls="collapseThree">
+                    <div class="__img">
+                      <img class="img-fluid occupation_blue_img_show" style="display: none;"
+                        src="./assets/images/occupatininfo_icon.svg" alt="">
+                      <img class="img-fluid occupation_gray_img_show" src="./assets/images/grey_occupation_ic.png"
+                        alt="">
+                    </div>
+                    <h5 class="occupation_info_before_icon _info_before_icon_rm">Occupation Information</h5>
+                  </button>
+                </div>
+
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body">
+                    <form id="occupationDetails">
+                      <div class="list-group">
+                        
+                        <div class="list-group-item py-3" data-acc-step>
+                          <div data-acc-content>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="employer_name">Employer Name
+                                  </label>
+                                  <input type="text" name="employer_name" id="employer_name" class="clix-input"
+                                    maxlength="100" autocomplete="employer_name" placeholder="Enter Employer Name"
+                                    required="">
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="company_type">Company Type </label>
+                                  <select name="company_type" id="company_type" class="clix-select" required="">
+                                    <option value="">Select Company Type
+                                    </option>
+                                    <option value="Partnership">Partnership
+                                    </option>
+                                    <option value="Private Sector">Private
+                                      Sector</option>
+                                    <option value="Proprietorship">
+                                      Proprietorship</option>
+                                    <option value="Public Sector">Public Sector
+                                    </option>
+                                    <option value="Others">Others</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="industry_type">Industry Type
+                                  </label>
+                                  <select name="industry_type" id="industry_type" class="clix-select" required="">
+                                    <option value="">Select Industry Type
+                                    </option>
+                                    <option value="Banking, Finance &amp; insurance">
+                                      Banking, Finance &amp; insurance
+                                    </option>
+                                    <option value="BPO, KPO and ITES">BPO, KPO
+                                      and ITES</option>
+                                    <option value="Core Sector (oil,gas, power,steel ,mineral,etc)">
+                                      Core Sector (oil,gas, power,steel
+                                      ,mineral,etc)</option>
+                                    <option value="Education">Education</option>
+                                    <option value="Engineering &amp; Automotive">
+                                      Engineering &amp; Automotive</option>
+                                    <option value="Entertainment">Entertainment
+                                    </option>
+                                    <option value="Manufacturing">Manufacturing
+                                    </option>
+                                    <option value="Pharma &amp; healthcare">
+                                      Pharma &amp; healthcare</option>
+                                    <option value="Pharmaceuticals">
+                                      Pharmaceuticals</option>
+                                    <option value="Software/Hardware &amp; IT">
+                                      Software/Hardware &amp; IT</option>
+                                    <option value="Telecom">Telecom</option>
+                                    <option value="Telecom_and_Telecom_Products">
+                                      Telecom_and_Telecom_Products</option>
+                                    <option value="Travel and Hospitality (Aviation,tour,hotel &amp; travel)">
+                                      Travel and Hospitality
+                                      (Aviation,tour,hotel &amp; travel)
+                                    </option>
+                                    <option value="Others">Others</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="designation">Designation </label>
+                                  <select name="designation" id="designation" class="clix-select" required="">
+                                    <option value="">Select Designation</option>
+                                    <option value="Assistant manager">Assistant
+                                      manager</option>
+                                    <option value="Assistant Vice President">
+                                      Assistant Vice President</option>
+                                    <option value="Associate">Associate</option>
+                                    <option value="CEO">CEO</option>
+                                    <option value="Chairman">Chairman</option>
+                                    <option value="COO">COO</option>
+                                    <option value="CXO">CXO</option>
+                                    <option value="Deputy general manager">
+                                      Deputy general manager</option>
+                                    <option value="Deputy manager">Deputy
+                                      manager</option>
+                                    <option value="Deputy Vice President">Deputy
+                                      Vice President</option>
+                                    <option value="Director">Director</option>
+                                    <option value="Executive">Executive</option>
+                                    <option value="Founder">Founder</option>
+                                    <option value="General manager">General
+                                      manager</option>
+                                    <option value="Management trainer">
+                                      Management trainer</option>
+                                    <option value="Manager">Manager</option>
+                                    <option value="Managing director">Managing
+                                      director</option>
+                                    <option value="Officer">Officer</option>
+                                    <option value="President">President</option>
+                                    <option value="Senior associate">Senior
+                                      associate</option>
+                                    <option value="Senior executive">Senior
+                                      executive</option>
+                                    <option value="Senior manager">Senior
+                                      manager</option>
+                                    <option value="Senior officer">Senior
+                                      officer</option>
+                                    <option value="Senior president">Senior
+                                      president</option>
+                                    <option value="Senior Vice President">Senior
+                                      Vice President</option>
+                                    <option value="Vice chairman">Vice chairman
+                                    </option>
+                                    <option value="Vice President">Vice
+                                      President</option>
+                                    <option value="Others">Others</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <div class="form-group">
+                                      <label for="official_email"
+                                        title="Please enter correct Official E-Mail ID, it will help in digital employment verification and fasten the loan process.">Official
+                                        Email Id </label>
+                                      <input type="text" name="official_email" id="official_email" class="clix-input"
+                                        maxlength="100" placeholder="Enter Email Id">
+                                      <input type="hidden" name="otp_email_request_id" id="otp_email_request_id"
+                                        value="">
+                                      <input type="hidden" name="email_verification_karza" id="email_verification_karza"
+                                        value="">
+                                      <input type="hidden" name="employer_validated" id="employer_validated" value="">
+                                      <div id="official_email_error" style="display: none;"></div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4 send_otp_btn_pl0">
+                                    <div class="form-group">
+                                      <label>&nbsp;</label>
+                                      <button type="button" name="send_otp" id="send_otp"
+                                        class="btn btn-success clix-input send_otp_occu_info">Send
+                                        OTP</button>
+                                      <div id="display_timer" style="display: none;">
+                                        <span class="pull-left"><span>Time
+                                            Left: </span></span>
+                                        <span class="pull-right"><span id="timer">01:00</span></span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <div class="form-group">
+                                      <label for="otp_email">OTP </label>
+                                      <input type="text" name="otp_email" id="otp_email" class="clix-input"
+                                        maxlength="4" placeholder="Enter OTP" autocomplete="otp_email">
+                                      <div id="otp_email_error" style="display: none;"></div>
+                                      <div class="otp_verify"></div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4 verify_btn_pl0">
+                                    <div class="form-group">
+                                      <label>&nbsp;</label>
+                                      <button type="button" name="verify" id="verify"
+                                        class="btn btn-success clix-input send_otp_occu_info">Verify</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="row">
+                                  <div class="col-md-12">
+                                    <label for="current_work_exp_in_year">Current
+                                      Work Experience</label>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <select name="current_work_exp_in_year" id="current_work_exp_in_year"
+                                        class="clix-select" required="">
+                                        <option value="">Year</option>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25">25</option>
+                                        <option value="26">26</option>
+                                        <option value="27">27</option>
+                                        <option value="28">28</option>
+                                        <option value="29">29</option>
+                                        <option value="30+">30+</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <select name="current_work_exp_in_month" id="current_work_exp_in_month"
+                                        class="clix-select" required="">
+                                        <option value="">Month</option>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="row">
+                                  <div class="col-md-12">
+                                    <label for="total_work_exp_in_year">Total
+                                      Work Experience</label>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <select name="total_work_exp_in_year" id="total_work_exp_in_year"
+                                        class="clix-select" required="">
+                                        <option value="">Year</option>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25">25</option>
+                                        <option value="26">26</option>
+                                        <option value="27">27</option>
+                                        <option value="28">28</option>
+                                        <option value="29">29</option>
+                                        <option value="30+">30+</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <select name="total_work_exp_in_month" id="total_work_exp_in_month"
+                                        class="clix-select" required="">
+                                        <option value="">Month</option>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-12 form-sub-head">Office Address
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="office_add_1">Address-1
+                                  </label>
+                                  <input type="text" name="office_add_1" id="office_add_1" class="clix-input"
+                                    maxlength="50" pattern="[a-zA-z0-9 .,/-]{3,50}" autocomplete="office_add_1"
+                                    placeholder="Enter Current Address-1" required="">
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="office_add_2">Address-2
+                                  </label>
+                                  <input type="text" name="office_add_2" id="office_add_2" class="clix-input"
+                                    maxlength="50" pattern="[a-zA-z0-9 .,/-]{3,50}" autocomplete="office_add_2"
+                                    placeholder="Enter Current Address-2" required="">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="office_add_3">Address Line 3 (Optional)</label>
+                                  <input type="text" name="office_add_3" id="office_add_3" class="clix-input"
+                                    maxlength="50" pattern="[a-zA-z0-9 .,/-]{3,50}" autocomplete="office_add_3"
+                                    placeholder="Enter Address Line 3">
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="office_landmark">Landmark </label>
+                                  <input type="text" name="office_landmark" id="office_landmark" class="clix-input"
+                                    placeholder="Enter Landmark" required="">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="office_pincode">Pincode </label>
+                                  <input type="text" name="office_pincode" id="office_pincode" class="clix-input"
+                                    maxlength="6" pattern="[0-9]{6}" placeholder="Enter Pincode"
+                                    autocomplete="office_pincode" required="">
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="office_state">State </label>
+                                  <select name="office_state" id="office_state" class="clix-select" required="">
+
+                                    <option value="">Select State</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="office_city">City </label>
+                                  <select name="office_city" id="office_city" class="clix-select" required="">
+
+                                    <option value="">Select City</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="office_locality">Locality </label>
+                                  <select name="office_locality" id="office_locality" class="clix-select" required="">
+
+                                    <option value="">Select Locality</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row pd-top55">
+                              <div class="col-md-6 mx-auto">
+                                <button type="submit" name="submit_occupation_details"
+                                  class="clix-button info_clix_btn per_info_btn_click_one">NEXT</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="./assets/js/jquery.validate.js"></script>
+  <script src="./assets/js/personal-informations.js"></script>
+  <script src="./assets/js/contactInformation.js"></script>
+  <script src="./assets/js/occupationInformation.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+  <script src="./assets/js/common.js"></script>
+</body>
+
+</html>

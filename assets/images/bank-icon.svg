@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="bank-icon" transform="translate(0.25)">
+    <circle id="Ellipse_1131" data-name="Ellipse 1131" cx="20" cy="20" r="20" transform="translate(-0.25)" fill="#64c2eb"/>
+    <path id="ic_account_balance_24px" d="M4,10v7H7V10Zm6,0v7h3V10ZM2,22H21V19H2ZM16,10v7h3V10ZM11.5,1,2,6V8H21V6Z" transform="translate(8.75 9)" fill="#fff"/>
+  </g>
+</svg>

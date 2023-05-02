@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>upload_pancard</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="assets/css/clix-styles.css" />
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-4 bg_dark_personal_info_sec">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 mx-auto">
+              <div class="clix_logo">
+                <img class="img-fluid" src="./assets/images/Logo.png" alt="" />
+              </div>
+              <div class="para_txt">
+                <p>You are at the right place to get quick<br>and hassle-free personal loans with<br>a
+                  few steps</p>
+              </div>
+              <div class="multi_step position-relative">
+                <img class="img-fluid" src="./assets/images/Upload_Selfie_Stepper.svg" alt="">
+                <ul>
+                  <li class="li_1 cu_li">Personal & Professional Details</li>
+                  <li class="li_2 cu_li">Reference Details</li>
+                  <li class="li_3 cu_li">Bank Details</li>
+                  <li class="li_4 cu_li">Upload Documents</li>
+                </ul>
+              </div>
+              <div class="personal_info_dark_sec_img">
+                <img class="img-fluid" src="./assets/images/Updated_Image_2.png" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-8 bg_light_personal_info_sec">
+        <div class="single_clix_logo">
+          <img class="img-fluid" src="./assets/images/Logo.png" alt="">
+        </div>
+        <div class="mob_personal_professional_details">
+          <div class="mob_personal_professional">
+            <p>Upload Documents</p>
+          </div>
+          <div class="circle_parent">
+            <div class="circle-wrap">
+              <div class="circle">
+                <div class="mask full">
+                  <div class="fill"></div>
+                </div>
+                <div class="mask half">
+                  <div class="fill"></div>
+                </div>
+                <div class="inside-circle">4 of 4</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-10 ml-lg-5 ml-md-0 ml-0">
+            <div class="d4l_logo text-right">
+              <img class="img-fluid" src="./assets/images/D4L-logo.png" alt="" />
+            </div>
+            <section class="upload_selfie_sec">
+              <form id="panDetails"
+                enctype="multipart/form-data">
+                <input type="hidden" name="member_ref" id="member_ref" value="213">
+                <input type="hidden" name="selfie" id="uploadSelfie">
+                <div class="white_wrapper_selfie">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h2>PAN Details</h2>
+                      <p style="color: #788691;">Upload a clean & readable image of your PAN Card
+                      </p>
+                      <div class="cu_cam_white_box">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <h6 class="enter_pen_txt">Enter PAN</h6>
+                            <div class="form-group pd-top-20">
+                              <input type="text" name="pan_no" class="clix-input valid" maxlength="10"
+                                placeholder="Enter Pan Number" value="" aria-invalid="false">
+                            </div>
+                            <div class="format_box">Supported File Format – JPEG/JPG/PNG</div>
+                            <div class="form-group" style="margin-bottom:1rem; ">
+                              <div class="pan-upload-bx">
+                                <!-- <span>Upload Pan Photo</span> <span class="small_text_upload">File size should be &lt;2 MB</span> -->
+                                <input type="file" name="pancard_proof">
+                                <div><i>+</i> <span>Attach PAN Photo</span></div>
+                              </div>
+                              <div class="filenames"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row pd_top2">
+                          <div class="col-md-12">
+                            <button type="submit" name="submit_upload_pancard" id="submit_upload_pancard"
+                              class="clix-button"> <img class="img-fluid" src="./assets/images/selfie_upload_icon.svg"
+                                alt=""> UPLOAD</button>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="./assets/js/jquery.validate.js"></script>
+  <script src="./assets/js/pan-details.js"></script>
+  <script src="./assets/js/common.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="267" viewBox="0 0 24 267">
+  <g id="Stepper" transform="translate(-98 -89)">
+    <line id="Line_15" data-name="Line 15" x2="40" transform="translate(110 121) rotate(90)" fill="none" stroke="#2fbf71" stroke-linecap="round" stroke-width="2"/>
+    <g id="Group_2425" data-name="Group 2425" transform="translate(-76 -8)">
+      <circle id="Ellipse_24" data-name="Ellipse 24" cx="12" cy="12" r="12" transform="translate(174 97)" fill="#2fbf71"/>
+      <path id="ic_check_24px" d="M7.964,14.209l-3.4-3.4L3.41,11.961l4.554,4.554L17.74,6.739,16.591,5.59Z" transform="translate(175.59 98.41)" fill="#fff"/>
+    </g>
+    <g id="Group_2427" data-name="Group 2427" transform="translate(-39 73)">
+      <circle id="Ellipse_23" data-name="Ellipse 23" cx="12" cy="12" r="12" transform="translate(137 97)" fill="#2fbf71"/>
+      <path id="ic_check_24px-2" data-name="ic_check_24px" d="M7.964,14.209l-3.4-3.4L3.41,11.961l4.554,4.554L17.74,6.739,16.591,5.59Z" transform="translate(138.59 99.41)" fill="#fff"/>
+    </g>
+    <g id="Group_2428" data-name="Group 2428" transform="translate(-76 154)">
+      <circle id="Ellipse_24-2" data-name="Ellipse 24" cx="12" cy="12" r="12" transform="translate(174 97)" fill="#2dbfff"/>
+      <text id="_3" data-name="3" transform="translate(183 114)" fill="#fff" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">3</tspan></text>
+    </g>
+    <g id="Group_3697" data-name="Group 3697" transform="translate(-76 235)" opacity="0.65">
+      <circle id="Ellipse_24-3" data-name="Ellipse 24" cx="12" cy="12" r="12" transform="translate(174 97)" fill="#ecf2fc"/>
+      <text id="_4" data-name="4" transform="translate(182.5 113.5)" fill="#6f7f9f" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">4</tspan></text>
+    </g>
+    <line id="Line_25" data-name="Line 25" x2="40" transform="translate(110 201) rotate(90)" fill="none" stroke="#2fbf71" stroke-linecap="round" stroke-width="2"/>
+    <line id="Line_26" data-name="Line 26" x2="40" transform="translate(110 283) rotate(90)" fill="none" stroke="#c9d3f0" stroke-linecap="round" stroke-width="2"/>
+  </g>
+</svg>

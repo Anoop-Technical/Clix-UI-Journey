@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clix Home Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/clix-styles.css" />
+</head>
+
+<body>
+    <div class="main-container container-fluid">
+        <div class="container mob_header">
+            <div class="row align-items-baseline">
+                <div class="col-6">
+                    <div class="clix_logo">
+                        <img class="img-fluid" src="./assets/images/Logo.png" alt="" />
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="d4l_logo text-right">
+                        <img class="img-fluid" src="./assets/images/D4L-logo.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 left_sec">
+                <div class="clix_logo header_logo">
+                    <img class="img-fluid" src="./assets/images/Logo.png" alt="" />
+                </div>
+                <div class="text_content">
+                    <p class="light_text">Congratulations, Amit Kumar</p>
+                    <p class="bold_text p_text_mb0">Avail up to ₹10.00 Lac</p>
+                    <p class="bold_text p_text_mb0 p_text_mb0_mobile">Pre approved Personal loan</p>
+                    <div class="option_text">
+                        <p>4 Easy Steps form</p>
+                        <p class="option_text_p_ml">Paperless Process</p>
+                        <p class="option_text_p_ml">Instant Loan</p>
+                    </div>
+                </div>
+                <div class="left_sec_main_img">
+                    <img class="img-fluid" src="./assets/images/Updated_Image_1.png" alt="">
+                </div>
+                <div class="left_sec_main_img_mob">
+                    <img class="img-fluid" src="./assets/images/Updated_Image_1_mob.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-6 right_sec">
+                <div class="d4l_logo text-right header_logo">
+                    <img class="img-fluid" src="./assets/images/D4L-logo.png" alt="" />
+                </div>
+                <form id="formHome">
+                    <div class="row cu_form_box">
+                        <div class="col-md-12 mx-auto cu_verify_idty">
+                            <div class="col-md-12">
+                                <h2 class="pl_vry_your_txt_hdng">Please verify your identity</h2>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="slider_wrapper">
+                                    <div class="form-group">
+                                        <label class="loan_amount">Loan Amount</label>
+                                        <div id="js-example-change-value">
+                                            <input type="range" id="Loan_Amount_Range" class="Loan_Amount_Range"
+                                                min="70000" max="500000" step="500" value="300000" data-rangeslider=""
+                                                style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;">
+                                            
+                                            <input type="number" name="applied_loan_amount" id="applied_loan_amount"
+                                                value="100000" step="500" class="form-output" readonly="">
+                                        </div>
+                                    </div>
+                                    <div class="range_limit">
+                                        <div class="min_limit">
+                                            70000
+                                        </div>
+                                        <div class="max_limit">
+                                            500000
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="title">Title </label>
+                                            <select name="title" id="title" class="clix-select valid"
+                                                placeholder="Title" autocomplete="off" required="" aria-invalid="false">
+                                                <option value="">Select Title</option>
+                                                <option value="CA">CA</option>
+                                                <option value="Dr">Dr</option>
+                                                <option value="Er">Er</option>
+                                                <option value="MR." selected="">Mr.</option>
+                                                <option value="MRS.">MRS.</option>
+                                                <option value="MS.">MS.</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="form-group">
+                                            <label for="full_name">Name as per PAN </label>
+                                            <input type="text" name="full_name" id="full_name" class="clix-input"
+                                                value="" placeholder="Enter Name" autocomplete="off">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group relative-box">
+                                    <label for="mobile">Mobile Number </label>
+                                    <span>+91</span>
+                                    <input type="text" name="mobile" id="mobile" class="clix-input" maxlength="10"
+                                        value="" placeholder="Enter Mobile Number" autocomplete="off">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="net_monthly_income">Net Monthly Income </label>
+                                    <input type="text" name="net_monthly_income" id="net_monthly_income"
+                                        class="clix-input" maxlength="10" pattern="[0-9]{3,10}"
+                                        placeholder="Enter Net Monthly Income">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="employment_type">Occupation Type </label>
+                                    <div class="cu_dispaly_flex">
+                                        <div class="radio-btn radio-btn-m radi_mr">
+                                            <label class="radio">
+                                                <input type="radio" name="employment_type" value="Salaried" checked>
+                                                <span class="outer">
+                                                    <span class="inner"></span>
+                                                </span>
+                                                <strong>Salaried</strong>
+                                            </label>
+                                        </div>
+                                        <div class="radio-btn radio-btn-m">
+                                            <label class="radio">
+                                                <input type="radio" name="employment_type" value="Self-Employed">
+                                                <span class="outer">
+                                                    <span class="inner"></span>
+                                                </span>
+                                                <strong>Self-Employed</strong>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="relative_err"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="checkbox-container">
+                                    <input type="checkbox" name="terms_send_otp" id="terms_send_otp"
+                                        class="checkbox height-10 noblank" value="Y">
+                                    <label for="terms_send_otp" class="comment more">I hereby appoint Deal4Loans as
+                                        my authorized representative to receive my credit information from
+                                        Cibil/Equifax/Experian/Highmark (bureau).<br /> I hereby unconditionally
+                                        consent to and instruct bureau to provide my credit information to me and
+                                        Deal4Loans on a month to month basis. I understand that I shall have the
+                                        option to opt out/unsubscribe from the service. By submitting this form, you
+                                        hereby authorize Deal4Loans to do all of the following in connection with
+                                        providing you the Services:<br />1. Verify your identity and share with our
+                                        Credit bureaus required personal identifiable information about you.<br />2.
+                                        Request and receive your Credit report, and credit score from our credit
+                                        bureaus, including but not limited to a copy of your consumer credit report
+                                        and score, at any time for so long as you have not opted out or unsubscribed
+                                        from this service.<br />3. Share your details with banking partners in order
+                                        assist you to rectify and remove negative observations from your credit
+                                        information report and increase your chances of loan approval in
+                                        future.<br />4. To provide you with customized recommendations and
+                                        personalized offers of the products and services of Deal4Loans and/or its
+                                        business partners/affiliates.<br />5. To send your information/personalized
+                                        offers via email, text, call or online display or other means of delivery in
+                                        Deal4Loans reasonable sole discretion.<br />6. Retain a copy of your credit
+                                        information, along with the other information you have given us access to
+                                        under this authorization, for use in accordance with Credit Score Terms of
+                                        Use, Terms of Use and Privacy Policy.<br />7. Wishfin acts as a service
+                                        partner to Clix and performs services such as providing a digital platform
+                                        for sourcing loan applications, technology services and fulfillment on
+                                        behalf of Clix. However, approval of the above mentioned loan facility is
+                                        solely at the discretion of Clix. </label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group text-center">
+                                    <button type="submit" name="submit_send_otp" class="clix-button">SEND
+                                        OTP</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="row mb-5">
+                    <div class="col-12">
+                        <h2 class="loan-heading">Matching you with best loan instantly</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="form_icon">
+                            <img class="img-fluid send_otp_icon_1" src="./assets/images/IC_1.png" alt="">
+                            <p class="my-4">Quick & Easy Process</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="form_icon">
+                            <img class="img-fluid send_otp_icon_2" src="./assets/images/IC_2.png" alt="">
+                            <p class="my-4">Say, Goodbuy to Paper</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="form_icon">
+                            <img class="img-fluid send_otp_icon_3" src="./assets/images/IC_3.png" alt="">
+                            <p class="my-4">Fast Disbursal</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="./assets/js/jquery.validate.js"></script>
+    <script src="./assets/js/clix-home-page-val.js"></script>
+    <script src="./assets/js/clix-range-slider-jquery-min.js"></script>
+    <script src="./assets/js/clix-rangeslider.min.js"></script>
+    <script src="./assets/js/clix-rangeslider-custom.js"></script>
+    <script src="assets/js/common.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bank Details and Verifications</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/css/jquery-ui.min.css">
+  <link rel="stylesheet" href="assets/css/clix-styles.css" />
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-4 bg_dark_personal_info_sec">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 mx-auto">
+              <div class="clix_logo">
+                <img class="img-fluid" src="./assets/images/Logo.png" alt="" />
+              </div>
+              <div class="para_txt">
+                <p>You are at the right place to get quick<br>and hassle-free personal loans with<br>a
+                  few steps</p>
+              </div>
+              <div class="multi_step position-relative">
+                <img src="./assets/images/Bankdetails_Stepper.svg" alt="">
+                <ul>
+                  <li class="li_1 cu_li">Personal & Professional Details</li>
+                  <li class="li_2 cu_li">Reference Details</li>
+                  <li class="li_3 cu_li">Bank Details</li>
+                  <li class="li_4 cu_li">Upload Documents</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="personal_info_dark_sec_img">
+          <img class="img-fluid" src="./assets/images/updated_inside_boy_img.png" alt="">
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-8 bg_light_personal_info_sec">
+        <div class="single_clix_logo">
+          <img class="img-fluid" src="./assets/images/Logo.png" alt="">
+        </div>
+        <div class="mob_personal_professional_details">
+          <div class="mob_personal_professional">
+            <p>Bank Details & Verification</p>
+          </div>
+          
+          <div class="circle_parent">
+            <div class="circle-wrap">
+              <div class="circle">
+                <div class="mask full">
+                  <div class="fill2"></div>
+                </div>
+                <div class="mask half">
+                  <div class="fill2"></div>
+                </div>
+                <div class="inside-circle">3 of 4</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-10 ml-lg-5 ml-md-0 ml-0">
+            <div class="d4l_logo text-right">
+              <img class="img-fluid" src="./assets/images/D4L-logo.png" alt="" />
+            </div>
+            <div id="accordion" class="cu_accordion final_offer_cu_accordian">
+              <div class="card cus_card">
+                <div class="card-header" id="headingOne">
+                  <button id="disabled_accordian_6" class="btn btn-link cu_btn_decoration" data-toggle="collapse"
+                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <div class="__img">
+                      <img src="./assets/images/bank-icon.svg" alt="">
+                    </div>
+                    <h5 class="personal_info_before_icon">BANK DETAILS</h5>
+                  </button>
+                </div>
+                <div id="collapseOne" class="collapse bankcollapse_1" aria-labelledby="headingOne"
+                  data-parent="#accordion">
+                  <div class="card-body">
+                    <form id="formHome">
+                      <div class="list-group">
+                        <div class="list-group-item py-3" data-acc-step>
+                          <div data-acc-content>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <h5 class="blood_relation_reference">Blood Relation Reference</h5>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="bank_name">Your Salary Bank Name </label>
+                                  <select name="bank_name_guid" id="bank_name_guid" class="clix-select" required="">
+                                    <option value="">Please select bank name</option>
+                                  </select>
+                                  <input type="hidden" name="bank_name" id="bank_name" value="Please select bank name">
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>IFSC Code </label>
+                                  <input type="text" name="ifsc_code" id="ifsc_code" class="clix-input"
+                                    placeholder="Enter IFSC Code" required="">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row my-3">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Select Account Type </label>
+                                  <div class="radio-box width144">
+                                    <input type="radio" name="account_type" value="SA" checked="">
+                                    <div class="radio_btn_border"><i><img
+                                          src="assets/images/saving-account-icon.png"></i>Saving</div>
+                                  </div>
+                                  <div class="radio-box width144">
+                                    <input type="radio" name="account_type" value="CA">
+                                    <div class="radio_btn_border"><i><img
+                                          src="assets/images/self-employeed-icon.png"></i>Current</div>
+                                  </div>
+                                  <div class="clearfix"></div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Account Number </label>
+                                  <input type="text" name="account_no" id="account_no" class="clix-input"
+                                    placeholder="Enter Account Number" required="">
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Confirm Account Number </label>
+                                  <input type="text" name="confirm_account_no" id="confirm_account_no"
+                                    class="clix-input" placeholder="Enter Confirm Account Number" required="">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row pd-top55">
+                              <div class="col-md-6 mx-auto">
+                                <button type="submit" name="submit_personal_details"
+                                  class="clix-button info_clix_btn">NEXT</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="./assets/js/jquery.validate.js"></script>
+  <script src="./assets/js/clix-home-page-val.js"></script>
+  <script src="./assets/js/manual-bank-statement-upload.js"></script>
+  <script src="./assets/js/common.js"></script>
+
+</body>
+
+</html>
